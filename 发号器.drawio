@@ -1,1 +1,63 @@
-<mxfile host="www.draw.io" modified="2019-12-02T06:13:51.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" version="12.3.3" etag="Q9YmaOMjBksld87oRvUq" type="github"><diagram id="gQzT_nWnWU9WaOQT4A3r">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-03T07:51:14.257Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="O-yUL3IIIkH524vR66bb" version="12.3.5" type="github" pages="1">
+  <diagram id="gQzT_nWnWU9WaOQT4A3r" name="第 1 页">
+    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Id&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&lt;span&gt;machine:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+seq:&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+time:&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+genMethod:&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+type:&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+version:&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="70" width="190" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Interface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;+ genId():long&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="70" width="190" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="3O35xqLmXiMFO4m8CPvE-6" target="3O35xqLmXiMFO4m8CPvE-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="3O35xqLmXiMFO4m8CPvE-6" target="3O35xqLmXiMFO4m8CPvE-14">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="3O35xqLmXiMFO4m8CPvE-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="470" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;AbstractIdService&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; long machineId=1;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; long genMethod=0;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; long version=0;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; IdType idType;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp; &amp;nbsp; IdMate idMate;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+long genId();&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void init();&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+abstract void populateId(Id id)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+long convert(Id id, IdMate idMeta);&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="280" width="190" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;IdType&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+SECONDS(1L,&quot;seconds&quot;),&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+MILLISECONDS(0L,&quot;milliseconds&quot;)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="290" width="190" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="3O35xqLmXiMFO4m8CPvE-12" target="3O35xqLmXiMFO4m8CPvE-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=1;" edge="1" parent="1" source="3O35xqLmXiMFO4m8CPvE-12" target="3O35xqLmXiMFO4m8CPvE-18">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-12" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;IdServiceImpl&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;- idPopulator:IdPopulator&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void populateId(Id id)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void initPopulator()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="580" width="190" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-17" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;IdMate&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&amp;nbsp;&lt;span&gt;private byte machineBits;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;private byte seqBits;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;private byte timeBits;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;private byte genMethodBit&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;private byte typeBits;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;private byte versionBits;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="430" width="190" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-24" value="idgen" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="60" width="1030" height="650" as="geometry"/>
+        </mxCell>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-26" value="intf" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="3O35xqLmXiMFO4m8CPvE-24">
+          <mxGeometry x="20" width="1010" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-27" value="service" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="3O35xqLmXiMFO4m8CPvE-24">
+          <mxGeometry x="20" y="180" width="1010" height="470" as="geometry"/>
+        </mxCell>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-18" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IdPopulator&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;br&gt;+ populateId(Id id, IdMate idMate):void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="3O35xqLmXiMFO4m8CPvE-27">
+          <mxGeometry x="100" y="40" width="250" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="3O35xqLmXiMFO4m8CPvE-27" source="3O35xqLmXiMFO4m8CPvE-20" target="3O35xqLmXiMFO4m8CPvE-18">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="3O35xqLmXiMFO4m8CPvE-20" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SyncIdPopulator&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;- sequence:long&lt;br&gt;-&amp;nbsp;lastTimestamp:long&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+void populateId(Id id, IdMate idMate)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="3O35xqLmXiMFO4m8CPvE-27">
+          <mxGeometry x="100" y="200" width="250" height="110" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

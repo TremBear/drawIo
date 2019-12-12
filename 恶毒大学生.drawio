@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-12T08:29:27.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="Un7b5ufSOhRMnQ4IALYt" version="12.3.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-12T08:40:32.629Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="qvToRDowTFNXMRcs2CF1" version="12.3.9" type="github" pages="1">
   <diagram id="fGvZhCaPanZ9U9WkfVBa" name="第 1 页">
-    <mxGraphModel dx="1173" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1173" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -281,7 +281,7 @@
         <mxCell id="BgFHkTgsVst7IXnbNdZ0-70" value="公开信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="G1ip0TqbECCh8ayl8rL1-4">
           <mxGeometry x="377" y="240" width="90" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="G1ip0TqbECCh8ayl8rL1-6" value="&lt;b&gt;项目介绍：&lt;/b&gt;&lt;br&gt;如今电子阅读大行其道，纸质书本渐行渐远，那一抹书香似乎随风而逝，看见了有太多有价值的图书在架上蒙尘，心里不禁为之惋惜。通过这个平台，你可以将书籍分享给他人，也可以免费获取别人的图书，让书籍在交换中发挥更大的价值。你也可以在书籍共享的过程中，寻找一些志同道合的朋友。&lt;br&gt;&lt;br&gt;&lt;b&gt;借阅流程&lt;/b&gt;：&lt;br&gt;1、注册会员，每发布一本图书，你将获得一枚借阅币，最多两枚；&lt;br&gt;2、发布的图书被借阅后和被获得好评后，好评达到10条增加一枚借阅币；&lt;br&gt;3、每持有一枚借阅币，即可借阅一本图书，时间30天，到期后此图书即可被别人申请借阅；&lt;br&gt;4、建议借阅之前电话或微信向对方确认，确认收书后对方会获得一枚借阅币；&lt;br&gt;5、作为纯公益平台，此平台不引入任何支付系统；&lt;br&gt;&lt;br&gt;&lt;b&gt;工作流程&lt;/b&gt;：&lt;br&gt;1、功能需求概要整理&lt;br&gt;2、原型图设计&lt;br&gt;3、技术选型，架构设计，搭建前后台项目框架&lt;br&gt;4、调用关系整理，避免循环依赖&lt;br&gt;5、第三方平台申请（微信，短信等）&lt;br&gt;6、表设计&lt;br&gt;7、后台功能迭代&lt;br&gt;8、搭建后台管理页面&lt;br&gt;9、前端设计，前端代码编写&lt;br&gt;10、小程序代码编写&lt;br&gt;11、分版本上线，重复步骤6" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="G1ip0TqbECCh8ayl8rL1-6" value="&lt;b&gt;项目介绍：&lt;/b&gt;&lt;br&gt;如今电子阅读大行其道，纸质书本渐行渐远，那一抹书香似乎随风而逝，看见了有太多有价值的图书在架上蒙尘，心里不禁为之惋惜。通过这个平台，你可以将书籍分享给他人，也可以免费获取别人的图书，让书籍在交换中发挥更大的价值。你也可以在书籍共享的过程中，寻找一些志同道合的朋友。&lt;br&gt;&lt;br&gt;&lt;b&gt;主要借阅流程&lt;/b&gt;：&lt;br&gt;1、注册会员，每发布一本图书，你将获得一枚借阅币，最多两枚；&lt;br&gt;2、发布的图书被借阅后和被获得好评后，好评达到10条增加一枚借阅币；&lt;br&gt;3、每持有一枚借阅币，即可借阅一本图书，时间30天，到期后此图书即可被别人申请借阅；&lt;br&gt;4、建议借阅之前电话或微信向对方确认，确认收书后对方会获得一枚借阅币；&lt;br&gt;5、作为纯公益平台，此平台不引入任何支付系统；&lt;br&gt;&lt;br&gt;&lt;b&gt;工作流程&lt;/b&gt;：&lt;br&gt;1、功能需求概要整理&lt;br&gt;2、原型图设计&lt;br&gt;3、技术选型，架构设计，搭建前后台项目框架&lt;br&gt;4、调用关系整理，避免循环依赖&lt;br&gt;5、第三方平台申请（微信，短信等）&lt;br&gt;6、表设计&lt;br&gt;7、后台功能迭代&lt;br&gt;8、搭建后台管理页面&lt;br&gt;9、前端设计，前端代码编写&lt;br&gt;10、小程序代码编写&lt;br&gt;11、分版本上线，重复步骤6" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="40" y="74" width="610" height="397" as="geometry"/>
         </mxCell>
       </root>
